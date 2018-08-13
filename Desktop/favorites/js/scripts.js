@@ -16,6 +16,15 @@ $(document).ready(function() {
 
     $('#details-2').show();
 
-    event.preventDefault();
+    var array2 = ["delicious", "yummy"];
+    array2.push(array[0]);
+    alert(array2)
+
+    $('#flv').text(array2[2]);
+    $('#scps').text(array2[1]);
+    $('#tpngs').text(array2[0]);
+
+
+        event.preventDefault();
   });
 });
